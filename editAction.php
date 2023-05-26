@@ -27,7 +27,7 @@ if (isset($_POST['update'])) {
 		$result = mysqli_query($mysqli, "UPDATE users SET `name` = '$name', `age` = '$age', `email` = '$email' WHERE `id` = $id");
 		
 		// Display success message
-		echo "<p><font color='green'>Data updated successfully!</p>";
-		echo "<a href='index.php'>View Result</a>";
+		echo "<p><b><font color='green'>Apointment has been added successfully!!!</b></p>";
+		echo "<a href='book.php'>View Result</a>";
 	}
 }

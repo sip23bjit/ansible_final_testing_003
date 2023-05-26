@@ -48,7 +48,7 @@ $email = $resultData['email'];
 	</form>
 	
 	<br>
-	<button onclick="window.location.href='index.html';">Return</button>
+	<button onclick="window.location.href='book.html';">Return</button>
 	</br>
 
 </body>

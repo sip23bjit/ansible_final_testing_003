@@ -9,4 +9,4 @@ $id = $_GET['id'];
 $result = mysqli_query($mysqli, "DELETE FROM users WHERE id = $id");
 
 // Redirect to the main display page (index.php in our case)
-header("Location:index.php");
+header("Location:book.php");
