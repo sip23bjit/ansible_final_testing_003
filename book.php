@@ -8,7 +8,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 
 <html>
 <head>	
-	<title>Homepage</title>
+	<title>Book Appointment</title>
 </head>
 
 <body>
@@ -35,5 +35,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 		}
 		?>
 	</table>
+	<>br</br>
+	<button onclick="window.location.href='index.html';">Return</button>
 </body>
 </html>
