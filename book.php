@@ -11,6 +11,19 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 	<title>Book Appointment</title>
 </head>
 
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+</style>
+
 <body style="background-color: #9FC5E8;">
 	<h2>Homepage</h2>
 	<p>
