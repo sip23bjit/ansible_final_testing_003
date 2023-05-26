@@ -35,7 +35,8 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 		}
 		?>
 	</table>
-	<>br</br>
+	<br>
 	<button onclick="window.location.href='index.html';">Return</button>
+	</br>
 </body>
 </html>
