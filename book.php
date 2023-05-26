@@ -12,6 +12,11 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 </head>
 
 <style>
+
+h2 {
+  text-align: center;
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -25,7 +30,7 @@ td, th {
 </style>
 
 <body style="background-color: #9FC5E8;">
-	<h2>Homepage</h2>
+	<h2>Book Appointment</h2>
 	<p>
 		<a href="add.php">Add New Data</a>
 	</p>
