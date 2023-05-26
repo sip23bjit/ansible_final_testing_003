@@ -3,7 +3,7 @@
 	<title>Add Data</title>
 </head>
 
-<body>
+<body style="background-color: #9FC5E8;">
 	<h2>Add Data</h2>
 	<p>
 		<a href="index.php">Home</a>
@@ -29,6 +29,13 @@
 			</tr>
 		</table>
 	</form>
+
+	<br>
+	<button onclick="window.location.href='index.html';">Return</button>
+	</br>
+	
 </body>
 </html>
+
+
 

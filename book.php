@@ -11,7 +11,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
 	<title>Book Appointment</title>
 </head>
 
-<body>
+<body style="background-color: #9FC5E8;">
 	<h2>Homepage</h2>
 	<p>
 		<a href="add.php">Add New Data</a>

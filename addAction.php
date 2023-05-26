@@ -3,7 +3,7 @@
 	<title>Add Data</title>
 </head>
 
-<body>
+<body style="background-color: #9FC5E8;">
 <?php
 // Include the database connection file
 require_once("dbConnection.php");
@@ -42,5 +42,10 @@ if (isset($_POST['submit'])) {
 	}
 }
 ?>
+
+  <br>
+	<button onclick="window.location.href='index.html';">Return</button>
+  </br>
+
 </body>
 </html>
