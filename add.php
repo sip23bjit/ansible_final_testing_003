@@ -6,7 +6,7 @@
 <body style="background-color: #9FC5E8;">
 	<h2>Add Data</h2>
 	<p>
-		<a href="index.php">Home</a>
+		<a href="book.php">Home</a>
 	</p>
 
 	<form action="addAction.php" method="post" name="add">
